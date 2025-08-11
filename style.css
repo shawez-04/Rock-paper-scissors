@@ -1,0 +1,86 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: var(--clr-light-a0);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+.header{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ background-color:#17303D;
+ color:#ffffff;
+ font-size: 1.3em;
+ font-weight: 800;
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 10px;
+ line-height: 2.5em;
+}
+.play-area{
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  padding: 20px;
+  flex-direction: column;
+  gap:50px;
+  align-items: center;
+}
+.icons{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-evenly;
+  gap: 50px;
+
+}
+.icon-card{
+  height: 200px;
+  width: 200px;  
+  margin: 20px;
+  transition: all ease-in 0.2s ;
+}
+.icon-card:hover{
+  transform: scale(1.2);
+}
+#rock{
+  background: url(rock.png)center/cover no-repeat;
+}
+#paper{
+  background: url(paper.png)center/cover no-repeat;
+}
+#scissors{
+  background: url(scissors.png)center/cover no-repeat;
+}
+.score-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px;
+  gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+#user-score , #comp-score{
+  font-size: 5rem;
+}
+.score-mssg{
+  display: flex;
+  margin-top: 20px;
+  background-color: #17303D;
+  color:#ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 800;
+  transition: all linear 0.4s;
+
+}
