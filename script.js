@@ -64,5 +64,7 @@ choices.forEach((choice) => {
         const userchoice = choice.getAttribute("id");
         console.log("choice was clicked", userchoice);
         winner(userchoice);
+        
     });
 });
+
